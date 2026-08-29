@@ -1,0 +1,34 @@
+{
+  "name": "pdfforge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "node scripts/copy-worker.mjs"
+  },
+  "dependencies": {
+    "@cantoo/pdf-lib": "^2.3.0",
+    "docx": "^9.0.2",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.469.0",
+    "mammoth": "^1.8.0",
+    "next": "^14.2.35",
+    "pdfjs-dist": "4.4.168",
+    "pptxgenjs": "^3.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tesseract.js": "^5.1.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  }
+}
