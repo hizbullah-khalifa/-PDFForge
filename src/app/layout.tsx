@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | PDFForge",
   },
   description:
-    "Convert, compress, merge, edit, protect, and manage your documents in seconds. Work Smarter With Every PDF.",
+    "Convert, compress, merge, edit, protect, and manage your documents in seconds. Work Smarter With Every PDF.By Hizbullah Khalifa",
 };
 
 const themeInit = `(function(){try{var t=localStorage.getItem('pf-theme');var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark');}catch(e){}})();`;
